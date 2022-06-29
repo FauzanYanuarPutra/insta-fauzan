@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>@_fauzanxd</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+   <div id="app">
+
+      <div class="profile">
+         <div class="image">
+            <img src="assets/img/phs.png" alt="phs">
+         </div>
+         <div class="nama nama-certi">
+            <h1>{{ namaDepan }} <span class="kuning">{{namaBelakang}}</span></h1>
+            <h4>Fullstack Developer || UI / UX Designer</h4>
+         </div>
+      </div>
+
+      <a :href="item.href" class="content" v-for="item in links">
+         <div class="text">
+            <h2>{{ item.nama }}</h2>
+         </div>
+      </a>
+
+
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+      <script src="assets/js/app.js"></script>
+   </div>
+
+
+</body>
+
+</html>

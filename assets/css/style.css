@@ -241,7 +241,10 @@ a {
    padding: .006px 0px .006px 0px;
 }
 
-
+.link-a {
+   color: #B8A739;
+   text-decoration: underline;
+}
 .isi-about p {
    color: #484848;
    font-size: 18px;

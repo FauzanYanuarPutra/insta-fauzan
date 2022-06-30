@@ -257,6 +257,14 @@ p.isi-skill {
 .kosong {
    margin-bottom: 200px;
 }
+.skill h2 {
+   font-size: 19px;
+}
+
+.skill p {
+   font-size: 15px;
+   line-height: 20px;
+}
 
 /* AKHIR AABOUT */
 

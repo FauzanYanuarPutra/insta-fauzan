@@ -4,20 +4,59 @@ var app = new Vue({
       links: [
          {
             nama: "Website",
-            href: "anjay/index.html"
+            href: "website/index.html"
+         },
+         {
+            nama: "About & Skill",
+            href: "about/about.html"
          },
          {
             nama: "Certificate",
             href: "certificates/certificates.html"
          },
+         // {
+         //    nama: "Skill",
+         //    href: "skill/skill.html"
+         // },
          {
             nama: "Github",
             href: "https://github.com/Fauzanyan"
          },
+         // {
+         //    nama: "Contact",
+         //    href: "contact/contact.html"
+         // }
+      ],
+      skill: [
          {
-            nama: "Contact",
-            href: "contact/contact.html"
-         }
+            namaSkill: "HTML and CSS",
+            isiSkill: "Bootstrap (3+), Sass, Talwind.css"
+         },
+         {
+            namaSkill: "JavaScript",
+            isiSkill: "JavaScript (ES2015+), TypeScript, Node.js"
+         },
+         {
+            namaSkill: "Build tools",
+            isiSkill: "Grunt, Gulp, Webpack"
+         },
+         {
+            namaSkill: "JavaScript frameworks",
+            isiSkill: "Angular (2+), jQuery, React.js, Vue.js"
+         },
+         {
+            namaSkill: "Server-side",
+            isiSkill: "PHP"
+         },
+         {
+            namaSkill: "Server-side frameworks",
+            isiSkill: "Express, Laravel, Phoenix"
+         },
+         {
+            namaSkill: "Others",
+            isiSkill: "Git, Linux, SQL"
+         },
+        
       ],
       certificates: [
          {

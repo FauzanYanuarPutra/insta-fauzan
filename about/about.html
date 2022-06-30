@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>@_fauzanxd</title>
+   <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+   <div id="app">
+
+      <div class="profil-nama card-nama">
+         <div class="profil">
+            <img src="../assets/img/phs.png" alt="">
+            <div class="tengah">
+               <h1 class="tengah2">{{ namaDepan }} <span class="kuning">{{namaBelakang}}</span></h1>
+               <h4>Fullstack Developer || UI / UX Designer</h4>
+            </div>
+         </div>
+      </div>
+
+      <div class="about-skill">
+         <div class="isi-about">
+            <div class="about">
+               <h1>ABOUT</h1>
+               <p>Hi, Nama saya Muhammad Fauzan, Saya adalah seorang web developer dan seorang designer yang tinggal di
+                  Bandung, Indonesia. Kedepannya saya berharap agar mampu menguasai semua bahasa pemrograman, untuk
+                  sekarang saya lebih fokus di bagian Front-End dan Back-End. untuk yang tidak tau apa itu Front-End dan
+                  Back-End kalian bisa langsung klik disini, yang nantinya akan diarahkan langsung ke blog saya sendiri,
+                  karena saya pernah menuliskan mengenai penjelasan dari Front-End, Back-End dan apa saja yang harus
+                  dikuasai, yang sudah saya rangkum sendiri dari website-website terpercaya.
+               </p>
+
+               <p>Disekolah saya ikut berbagai macam kegiatan mulai dari OSIS (ORGANISASI SISWA INTRA SEKOLAH),
+                  TIM
+                  MEDSOS,
+                  dan juga TEAM CREATIVE</p>
+            </div>
+            <br>
+            <hr><br>
+            <div class="skill">
+               <h2>Skillset ( Web Development )</h3>
+                  <div class="skills" v-for="item in skill">
+                     <h2>{{ item.namaSkill}}</h2>
+                     <p class="isi-skill">{{item.isiSkill}}</p>
+
+                  </div>
+                  <br>
+                  <hr><br>
+                  <h2>Skillset ( Other )</h2>
+                  <div class="skills">
+                     <h2>Design Tools</h2>
+                     <p class="isi-skill">Figma</p>
+
+                  </div>
+            </div>
+            <div class="kosong"></div>
+         </div>
+      </div>
+
+      <div class="kosong"></div>
+
+
+      <a href="../index.html" class="keluar">
+         <strong>KEMBALI</strong>
+      </a>
+      <div class="kosong"></div>
+   </div>
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+   <script src="../assets/js/app.js"></script>
+
+
+
+</body>
+
+</html>

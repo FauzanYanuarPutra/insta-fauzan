@@ -326,6 +326,7 @@ p.isi-skill {
 /* ZOOM */
 .info-about h2 {
    text-align: center;
+   padding-top: 30px;
 }
 
 .info-about p,

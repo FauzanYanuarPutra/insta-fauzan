@@ -10,6 +10,9 @@ body {
    overflow-x: hidden;
    overflow-y: scroll;
 }
+.overflow-hidden {
+   overflow-y: hidden;
+}
 
 #app {
    padding-bottom: 200px;
@@ -205,6 +208,17 @@ a {
    justify-content: space-around;
 }
 
+.show-full {
+   width: 100%;
+   height: 100vh;
+   background-color: black;
+   position: fixed;
+   top: 0;
+   z-index: 100;
+   opacity: .65;
+}
+
+
 
 
 /* STYLE CERTIFICATE AKHIR */
@@ -309,7 +323,112 @@ p.isi-skill {
 }
 
 
+/* ZOOM */
+.info-about h2 {
+   text-align: center;
+}
 
+.info-about p,
+.info-about h3 {
+   text-align: left;
+}
+
+.skills h2 {
+   text-align: left;
+}
+
+.kiri {
+   text-align: left;
+}
+
+.info-about {
+   z-index: 100;
+   margin: auto;
+   background-color: white;
+   position: relative;
+   top: 0; 
+   bottom: 0;
+   left: 0;
+   right: 0;
+   animation: open 1.5s forwards;
+   -webkit-animation: open 1.5s forwards;
+   overflow-y: hidden;
+   
+}
+
+.info-abouts {
+   animation: close 1.5s forwards;
+   -webkit-animation: close 1.5s forwards;
+}
+
+.info-about:hover {
+   background-color: white;
+   color: #7D7D7D;
+}
+
+.hilang {
+   display: block;
+}
+
+.hilangs {
+   display: none;
+}
+
+.abouts {
+   display: none;
+}
+
+.certi-none {
+   display: none;
+}
+
+.certis {
+   display: block;
+}
+.show-isi {
+   display: block;
+}
+
+
+
+/* KEYFRAMES */
+@keyframes open {
+   0%, 50% {
+      width: 80%;
+      height: 100px;
+      
+   } 50% {
+      width: 100%;
+      height: 100px;
+      background-color:#ceb82c;
+      color: white;
+
+      
+   } 80%, 90% {
+      width: 100%;
+      height: 100vh;
+      background-color: white;
+   } 100% {
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      overflow-y: auto;
+      
+      
+      
+   }
+}
+
+@keyframes showIsi {
+   0% {
+      opacity: 0;
+   } 100% {
+      opacity: 1;
+   }
+}
+
+
+/* AKHIR ZOOM */
 
 @media screen and (min-width: 768px) {
    .nama h1{

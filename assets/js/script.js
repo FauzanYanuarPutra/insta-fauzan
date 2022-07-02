@@ -8,6 +8,7 @@ const tampil = document.querySelector('.tampil');
 const keluarAbout = document.querySelector('.keluar-isi-about')
 const keluarCerti = document.querySelector('.keluar-isi-certi')
 
+
 about.addEventListener('click', function() {
       tampil.classList.add('tampil-kan')
       body.classList.add('ov-y')

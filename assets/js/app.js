@@ -1,36 +1,40 @@
 var app = new Vue({
    el: "#app",
    data: {
-      links: [
+      link: [
          {
             nama: "Website",
             href: "website/index.html",
             class: "website"
          },
          {
+            nama: "Github",
+            href: "https://github.com/Fauzanyan",
+            class: "github"
+         },
+
+      ],
+      links: [
+         {
             nama: "About & Skill",
-            href: "#",
+            href: "",
             class: "about"
          },
          {
             nama: "Certificate",
-            href: "#",
+            href: "",
             class: "certi"
          },
          // {
          //    nama: "Skill",
          //    href: "skill/skill.html"
          // },
-         {
-            nama: "Github",
-            href: "https://github.com/Fauzanyan",
-            class: "github"
-         },
          // {
          //    nama: "Contact",
          //    href: "contact/contact.html"
          // }
       ],
+      
       skill: [
          {
             namaSkill: "HTML and CSS",

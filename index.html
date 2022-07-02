@@ -13,7 +13,7 @@
 
    <div id="app">
 
-      <div class="profile">
+      <div class="profile hide">
          <div class="image">
             <img src="assets/img/phs.png" alt="phs">
          </div>
@@ -23,11 +23,20 @@
          </div>
       </div>
 
-      <a :href="item.href" class="content" v-for="item in links">
+
+
+      <div :class="item.class" class="content" v-for="item in links">
          <div class="text">
             <h2>{{ item.nama }}</h2>
          </div>
-      </a>
+      </div>
+
+      <div class="tampil">
+         <div class="isi isiAbout d-none" v-html="isiAbout">
+         </div>
+         <div class="isi isiCerti d-none" v-html="isiCerti">
+         </div>
+      </div>
 
       <div class="contact">
          <a href="https://wa.me/message/ET2T7QJZAHLWH1" class="wa"><img src="assets/img/WhatsApp.png" alt=""></a>
@@ -41,6 +50,7 @@
    </div>
    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
    <script src="assets/js/app.js"></script>
+   <script src="assets/js/script.js"></script>
 
 
 

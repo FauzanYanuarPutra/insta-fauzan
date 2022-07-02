@@ -25,11 +25,11 @@
 
 
 
-      <div :class="item.class" class="content" v-for="item in links">
+      <a :href="item.href" :class="item.class" class="content" v-for="item in links">
          <div class="text">
             <h2>{{ item.nama }}</h2>
          </div>
-      </div>
+      </a>
 
       <div class="tampil">
          <div class="isi isiAbout d-none" v-html="isiAbout">

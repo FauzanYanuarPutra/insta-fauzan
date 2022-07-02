@@ -9,12 +9,12 @@ var app = new Vue({
          },
          {
             nama: "About & Skill",
-            href: "about/about.html",
+            href: "#",
             class: "about"
          },
          {
             nama: "Certificate",
-            href: "certificates/certificates.html",
+            href: "#",
             class: "certi"
          },
          // {

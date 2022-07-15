@@ -86,23 +86,30 @@ var app = new Vue({
             src: "../assets/img/6.jpg",
          },
          {
-            src: "../assets/img/20.jpg",
+            src: "../assets/img/7.jpg",
          },
          {
-            src: "../assets/img/21.jpg",
+            src: "../assets/img/8.jpg",
          },
          {
-            src: "../assets/img/22.jpg",
+            src: "../assets/img/9.jpg",
          },
          {
-            src: "../assets/img/23.jpg",
+            src: "../assets/img/10.jpg",
          },
          {
-            src: "../assets/img/24.jpg",
+            src: "../assets/img/11.jpg",
          },
          {
-            src: "../assets/img/25.jpg",
+            src: "../assets/img/12.jpg",
          },
+         {
+            src: "../assets/img/13.jpg",
+         },
+         {
+            src: "../assets/img/14.jpg",
+         },
+         
       ],
       namaDepan: "Muhammad",
       namaBelakang: "Fauzan",
@@ -250,7 +257,7 @@ function isiCerti() {
             </div>
             <div v-for="item in certificates">
                <div class="certi ">
-                  <img src="assets/img/13.jpg" alt="">
+                  <img src="assets/img/12.jpg" alt="">
                </div>
             </div>
             <div v-for="item in certificates">

@@ -154,18 +154,19 @@ function isiAbout() {
                <h2>Skillset ( Web Development )</h2>
                <div class="skills" v-for="item in skill">
                   <h2>HTML and CSS</h2>
-                  <p class="isi-skill">Bootstrap (3+), Sass</p>
+                  <p class="isi-skill">Bootstrap (3+), Sass, Talwind.css(AKAN DIPELAJARI)</p>
                   <h2>JavaScript</h2>
-                  <p class="isi-skill">Node Js(AKAN DILEPAJARI) </p>
-         
+                  <p class="isi-skill">JavaScript (ES2015+), TypeScript(AKAN DIPELAJARI), Node.js(AKAN DIPELAJARI)</p>
+                  <h2>Build tools</h2>
+                  <p class="isi-skill">Grunt, Gulp(AKAN DIPELAJARI), Webpack(AKAN DIPELAJARI)</p>
                   <h2>JavaScript frameworks</h2>
-                  <p class="isi-skill">jQuery, Vue.js</p>
+                  <p class="isi-skill">Angular (2+), jQuery, React.js(AKAN DIPELAJARI), Vue.js</p>
                   <h2>Server-side</h2>
                   <p class="isi-skill">PHP</p>
                   <h2>Server-side frameworks</h2>
-                  <p class="isi-skill"> Laravel(AKAN DIPELAJARI)</p>
+                  <p class="isi-skill">Express(AKAN DIPELAJARI), Laravel(AKAN DIPELAJARI), Phoenix(AKAN DIPELAJARI)</p>
                   <h2>Others</h2>
-                  <p class="isi-skill">Git, SQL</p>
+                  <p class="isi-skill">Git, Linux(AKAN DIPELAJARI), SQL</p>
                </div>
                <br>
                <hr><br>

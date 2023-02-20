@@ -1,118 +1,116 @@
 var app = new Vue({
-   el: "#app",
-   data: {
-      link: [
-         {
-            nama: "Website",
-            href: "website/index.html",
-            class: "website"
-         },
-         {
-            nama: "Github",
-            href: "https://github.com/Fauzanyan",
-            class: "github"
-         },
+  el: "#app",
+  data: {
+    link: [
+      {
+        nama: "Website",
+        href: "website/index.html",
+        class: "website",
+      },
+      {
+        nama: "Github",
+        href: "https://github.com/Fauzanyan",
+        class: "github",
+      },
+    ],
+    links: [
+      {
+        nama: "About & Skill",
+        href: "",
+        class: "about",
+      },
+      {
+        nama: "Certificate",
+        href: "",
+        class: "certi",
+      },
+      // {
+      //    nama: "Skill",
+      //    href: "skill/skill.html"
+      // },
+      // {
+      //    nama: "Contact",
+      //    href: "contact/contact.html"
+      // }
+    ],
 
-      ],
-      links: [
-         {
-            nama: "About & Skill",
-            href: "",
-            class: "about"
-         },
-         {
-            nama: "Certificate",
-            href: "",
-            class: "certi"
-         },
-         // {
-         //    nama: "Skill",
-         //    href: "skill/skill.html"
-         // },
-         // {
-         //    nama: "Contact",
-         //    href: "contact/contact.html"
-         // }
-      ],
-      
-      skill: [
-         {
-            namaSkill: "HTML and CSS",
-            isiSkill: "Bootstrap (3+), Sass, Talwind.css"
-         },
-         {
-            namaSkill: "JavaScript",
-            isiSkill: "JavaScript (ES2015+), TypeScript, Node.js"
-         },
-         {
-            namaSkill: "Build tools",
-            isiSkill: "Grunt, Gulp, Webpack"
-         },
-         {
-            namaSkill: "JavaScript frameworks",
-            isiSkill: "Angular (2+), jQuery, React.js, Vue.js"
-         },
-         {
-            namaSkill: "Server-side",
-            isiSkill: "PHP"
-         },
-         {
-            namaSkill: "Server-side frameworks",
-            isiSkill: "Express, Laravel, Phoenix"
-         },
-         {
-            namaSkill: "Others",
-            isiSkill: "Git, Linux, SQL"
-         },
-        
-      ],
-      certificates: [
-         {
-            src: "../assets/img/1.jpg",
-         },
-         {
-            src: "../assets/img/2.jpg",
-         },
-         {
-            src: "../assets/img/3.jpg",
-         },
-         {
-            src: "../assets/img/4.jpg",
-         },
-         {
-            src: "../assets/img/5.jpg",
-         },
-         {
-            src: "../assets/img/6.jpg",
-         },
-         {
-            src: "../assets/img/20.jpg",
-         },
-         {
-            src: "../assets/img/21.jpg",
-         },
-         {
-            src: "../assets/img/22.jpg",
-         },
-         {
-            src: "../assets/img/23.jpg",
-         },
-         {
-            src: "../assets/img/24.jpg",
-         },
-         {
-            src: "../assets/img/25.jpg",
-         },
-      ],
-      namaDepan: "Muhammad",
-      namaBelakang: "Fauzan",
-      isiAbout: isiAbout(),
-      isiCerti: isiCerti()
-   }
-})
+    skill: [
+      {
+        namaSkill: "HTML and CSS",
+        isiSkill: "Bootstrap (3+), Sass, Talwind.css",
+      },
+      {
+        namaSkill: "JavaScript",
+        isiSkill: "JavaScript (ES2015+), TypeScript, Node.js",
+      },
+      {
+        namaSkill: "Build tools",
+        isiSkill: "Grunt, Gulp, Webpack",
+      },
+      {
+        namaSkill: "JavaScript frameworks",
+        isiSkill: "Angular (2+), jQuery, React.js, Vue.js",
+      },
+      {
+        namaSkill: "Server-side",
+        isiSkill: "PHP",
+      },
+      {
+        namaSkill: "Server-side frameworks",
+        isiSkill: "Express, Laravel, Phoenix",
+      },
+      {
+        namaSkill: "Others",
+        isiSkill: "Git, Linux, SQL",
+      },
+    ],
+    certificates: [
+      {
+        src: "../assets/img/1.jpg",
+      },
+      {
+        src: "../assets/img/2.jpg",
+      },
+      {
+        src: "../assets/img/3.jpg",
+      },
+      {
+        src: "../assets/img/4.jpg",
+      },
+      {
+        src: "../assets/img/5.jpg",
+      },
+      {
+        src: "../assets/img/6.jpg",
+      },
+      {
+        src: "../assets/img/20.jpg",
+      },
+      {
+        src: "../assets/img/21.jpg",
+      },
+      {
+        src: "../assets/img/22.jpg",
+      },
+      {
+        src: "../assets/img/23.jpg",
+      },
+      {
+        src: "../assets/img/24.jpg",
+      },
+      {
+        src: "../assets/img/25.jpg",
+      },
+    ],
+    namaDepan: "Muhammad",
+    namaBelakang: "Fauzan",
+    isiAbout: isiAbout(),
+    isiCerti: isiCerti(),
+  },
+});
 
 function isiAbout() {
-   return `
+  return `
    <br><br><br>
       
          
@@ -180,11 +178,11 @@ function isiAbout() {
          </div>
       </div>
 
-`
+`;
 }
 
 function isiCerti() {
-   return `<div id="app">
+  return `<div id="app">
 
       
 <br><br><br>
@@ -250,7 +248,7 @@ function isiCerti() {
             </div>
             <div v-for="item in certificates">
                <div class="certi ">
-                  <img src="assets/img/13.jpg" alt="">
+                  <img src="assets/img/12.jpg" alt="">
                </div>
             </div>
             <div v-for="item in certificates">
@@ -268,6 +266,21 @@ function isiCerti() {
                   <img src="assets/img/15.jpg" alt="">
                </div>
             </div>
+            <div v-for="item in certificates">
+               <div class="certi ">
+                  <img src="assets/img/16.jpg" alt="">
+               </div>
+            </div>
+            <div v-for="item in certificates">
+               <div class="certi ">
+                  <img src="assets/img/17.jpg" alt="">
+               </div>
+            </div>
+            <div v-for="item in certificates">
+               <div class="certi ">
+                  <img src="assets/img/18.jpg" alt="">
+               </div>
+            </div>
             
          </div>
 
@@ -283,5 +296,5 @@ function isiCerti() {
             <strong>KEMBALI</strong>
          </div>
 
-   </div>`
+   </div>`;
 }

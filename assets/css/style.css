@@ -31,7 +31,7 @@ body {
    -moz-border-radius: 100%;
    -ms-border-radius: 100%;
    -o-border-radius: 100%;
-   box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.5);
+
 }
 
 .nama {
@@ -71,7 +71,8 @@ a {
    width: 80%;
    margin: auto;
    height: 100px;
-   background-color: white;
+   background-color: #0066FF;
+   color:white;
    box-shadow: 0px 0px 17px -2px rgba(0, 0, 0, 0.18);
    border-radius: 20px;
    display: grid;
@@ -91,12 +92,12 @@ a {
 }
 
 .content:hover {
-   background-color: #B8A739;
+   background-color: #2b80ff;
    color: white;
 }
 
 .kuning {
-   color: #B8A739;
+   color: #0066FF;
 }
 
 .contact {
@@ -141,7 +142,7 @@ a {
    display: grid;
    justify-content: center;
    align-items: center;
-   color: #B8A739;
+   color: #0066FF;
    padding: 50px;
    margin-top: -80px;
    /* background-color:red; */
@@ -241,7 +242,7 @@ a {
 
 .isi-about h1 {
    text-align: center;
-   color: #B8A739;
+   color: #0066FF;
 }
 
 .isi-about h2 {
@@ -254,7 +255,7 @@ a {
 }
 
 .link-a {
-   color: #B8A739;
+   color: #0066FF;
    text-decoration: underline;
 }
 .isi-about p {
@@ -297,7 +298,7 @@ p.isi-skill {
    width: 90%;
    margin: auto;
    height: 70px;
-   background-color: #B8A739;
+   background-color: #0066FF;
    color: white;
    display: grid;
    justify-content: center;
@@ -319,11 +320,11 @@ p.isi-skill {
    cursor: pointer;
 }
 
-.keluar-isi-about:hover,
+/* .keluar-isi-about:hover,
 .keluar-isi-certi:hover {
-   background-color: #f1da48;
+   background-color: #2b80ff;
    color: #484848;
-}
+} */
 
 
 /* REVISI */
@@ -398,11 +399,11 @@ p.isi-skill {
    0% {
       width: 50px;
       height: 50px;
-      background-color: #B8A739
+      background-color: #0066FF
    } 50% {
       width: 100%;
       height: 50px;
-      background-color: #ae9c28
+      background-color: #2b80ff
 
    } 100% {
       width: 100%;
@@ -417,13 +418,13 @@ p.isi-skill {
    } 50% {
       width: 100%;
       height: 50px;
-      background-color: #ae9c28
+      background-color: #2b80ff
 
    } 100% {
       
       width: 00px;
       height: 00px;
-      background-color: #B8A739
+      background-color: #0066FF
 }
 }
 

@@ -26,7 +26,7 @@ about.addEventListener('click', function() {
       const isiAbout = document.querySelector('.isiAbout')
       setTimeout(function() {
          isiAbout.classList.add('d-block')
-      }, 1000)
+      }, 800)
 })
 
 certi.addEventListener('click', function() {
@@ -46,7 +46,7 @@ certi.addEventListener('click', function() {
       const isiCerti = document.querySelector('.isiCerti')
       setTimeout(function() {
          isiCerti.classList.add('d-block')
-      }, 1000)
+      }, 800)
 })
 
 keluarAbout.addEventListener('click', function(){

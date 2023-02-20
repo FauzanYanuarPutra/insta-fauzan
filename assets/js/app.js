@@ -265,6 +265,21 @@ function isiCerti() {
                   <img src="assets/img/15.jpg" alt="">
                </div>
             </div>
+            <div v-for="item in certificates">
+               <div class="certi ">
+                  <img src="assets/img/16.jpg" alt="">
+               </div>
+            </div>
+            <div v-for="item in certificates">
+               <div class="certi ">
+                  <img src="assets/img/17.jpg" alt="">
+               </div>
+            </div>
+            <div v-for="item in certificates">
+               <div class="certi ">
+                  <img src="assets/img/18.jpg" alt="">
+               </div>
+            </div>
             
          </div>
 
